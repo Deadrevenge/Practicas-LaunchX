@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pasteleria "El Espanto"</title>
+</head>
+<body>
+    <header>
+        <h1>Pasteleria "El Espanto"</h1>
+    </header>
+    <img src="./Pasteleria El Espanto.png" alt="Logo Pasteleria">
+    <h2>Menu</h2>
+    <h3>Sabores</h3>
+    <dl>   
+        <dt><b>Chocolate</b></dt>
+        <dd>Todo el pastel ........ $300</dd>
+        <dd>Interior .................. $200</dd>
+        <dd>Exterior ................. $100</dd>
+        <img src="./chocolate.jpg" alt="Chocolate">
+        <dt><b>Fresa</b></dt>
+        <dd>Todo el pastel ........ $250</dd>
+        <dd>Interior .................. $200</dd>
+        <dd>Exterior ................. $120</dd>
+        <img src="./fresa.jpg" alt="Fresa">
+        <dt><b>Limón</b></dt>
+        <dd>Todo el pastel ........ $200</dd>
+        <dd>Interior .................. $150</dd>
+        <dd>Exterior ................. $50</dd>
+        <img src="./limon.jpg" alt="Limón">
+        <dt><b>Manzana</b></dt>
+        <dd>Todo el pastel ........ $350</dd>
+        <dd>Interior .................. $300</dd>
+        <dd>Exterior ................. $100</dd>
+        <img src="./manzana.jpg" alt="Manzana">
+        <dt><b>Maracuyá</b></dt>
+        <dd>Todo el pastel ........ $400</dd>
+        <dd>Interior .................. $300</dd>
+        <dd>Exterior ................. $150</dd>
+        <img src="./maracuya.jpg" alt="Maracuyá">
+        <dt><b>Mora</b></dt>
+        <dd>Todo el pastel ........ $400</dd>
+        <dd>Interior .................. $300</dd>
+        <dd>Exterior ................. $100</dd>
+        <img src="./mora.jpg" alt="Mora">
+        <dt><b>Naranja</b></dt>
+        <dd>Todo el pastel ........ $200</dd>
+        <dd>Interior .................. $150</dd>
+        <dd>Exterior ................. $50</dd>
+        <img src="./naranja.jpg" alt="Naranja">
+         
+    </dl>
+
+
+    <h3>Adornos</h3>
+    <p>Puedes añadir el adorno que gustes a cualquier pastel</p>
+    <ul>
+        <li>Bautizo ....................$50 </li>
+        <img src="./bautizo.jpg" alt="Bautizo">
+        <li>Feliz cumpleaños....................$30</li>
+        <img src="./mensaje de feliz cumpleaños.jpg" alt="Mensaje de Feliz cumpleañoz">
+        <li>Corazón....................$20</li>  
+        <img src="./corazon.jpg" alt="Corazón">
+        <li>15 Años....................$60</li>
+        <img src="./15 años.jpg" alt="15 Años">
+        <li>Pareja de casados....................$100</li>
+        <img src="./pareja de casados.jpg" alt="Pareja de casados">
+    </ul>
+
+    <h2>Pedidos</h2>
+    <h3>Armalo a tu gusto</h3>
+    <form action="">
+        <label for="Nombre">Nombre</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="¿Como te llamas?">
+        <br><br>
+        <label for="Telefono">Telefono</label><br>
+        <input type="text" name="Telefono" id="Telefono" placeholder="¿Cual es tu telefono?">
+        <br><br>
+        <label for="Correo electronico">Correo electronico</label><br>
+        <input type="text" name="Correo electronico" id="Correo electronico" placeholder="¿Cual es tu correo electronico?">
+    <p>Elige el sabor y el adorno que más te guste</p>
+        De que sabor quieres el interior de tu pastel?
+        <select name="sabor" id="sabor">
+            <option value="chocolate">Chocolate</option>
+            <option value="fresa">Fresa</option>
+            <option value="limon">Limón</option>
+            <option value="manzana">Manzana</option>
+            <option value="maracuya">Maracuyá</option>
+            <option value="mora">Mora</option>
+            <option value="naranja">Naranja</option>    
+        </select>
+        <br>
+        <br>
+        De que quieres el sabor exterior?
+        <select name="saborExterior" id="saborExterior">
+            <option value="chocolate">Chocolate</option>
+            <option value="fresa">Fresa</option>
+            <option value="limon">Limón</option>
+            <option value="manzana">Manzana</option>
+            <option value="maracuya">Maracuyá</option>
+            <option value="mora">Mora</option>
+            <option value="naranja">Naranja</option>
+        </select>
+        <br>
+        <br>
+        Que adorno quieres?
+        <select name="adorno" id="adorno">
+            <option value="Sin adorno">Sin adorno</option>
+            <option value="bautizo">Bautizo</option>
+            <option value="feliz cumpleaños">Feliz cumpleaños</option>
+            <option value="corazon">Corazón</option>
+            <option value="15 años">15 Años</option>
+            <option value="pareja de casados">Pareja de casados</option>
+        </select>
+        <br>
+        <br>
+        <label for="Comentarios">Comentarios</label><br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Agrega los detalles del pastel (¿Algun mensaje en el tope, diseño, imagen, etc.?)"></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <h2>Datos de contacto</h2>
+    <p>Para cualquier duda o comentario, puedes contactarnos a través de los siguientes medios:</p>
+    <ul>
+        <li>Dirección:<a href="https://goo.gl/maps/TiS8Su7t1iJxf2RB8" target="_blank"> Av. Revolución 123</a></li>
+        <li>Telefono: 559684756</li>
+        <li>Horarios de atencion: L-D 9 am - 9 pm </li>
+        
+
+</body>
